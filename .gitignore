@@ -1,0 +1,19 @@
+# Secrets & Environment Variables
+.env
+.env.local
+.env.*
+
+# Python / Backend
+src/backend/venv/
+src/backend/__pycache__/
+*.pyc
+
+# Node.js / Frontend
+src/frontend-ui/node_modules/
+src/frontend-ui/.next/
+npm-debug.log
+
+# Smart Contracts (Hardhat/Foundry)
+src/omniyield-contracts/artifacts/
+src/omniyield-contracts/cache/
+src/omniyield-contracts/node_modules
